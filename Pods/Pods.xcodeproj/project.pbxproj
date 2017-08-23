@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0141F383C20B63592064B2A2E551612B /* Pods-frimapUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B615CFC5CA8E2A2B085C00DF2B5215 /* Pods-frimapUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B253E786CFC361AD0B60A776A4178A /* Pods-frimapUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39231AECD1E333F0559F0AFF425280B2 /* Pods-frimapUITests-dummy.m */; };
+		22377F2F814B19372DD42D3CB39F4B19 /* Pods-frimap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BAC09264EF66702222CCC8725A4EC4 /* Pods-frimap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ADBB3F1D6789081B743EB93F696BB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E0FC5DD1C5D9A11FC41B9C6A4D8B9994 /* Pods-frimapTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B63D0AC5ABAEF65CED82C061D6043A /* Pods-frimapTests-dummy.m */; };
+		E42C4938C13F1F1E41941E629F82F14A /* Pods-frimapTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 682C6FA1162A71DEC3DFF3340BAE6E24 /* Pods-frimapTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA4206EDE0C67EF2259840E711DE374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FF248A8DC463A87917B9C1E77F0401CF /* Pods-frimap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9B3057CF54AA3F7673420CB5F379D4 /* Pods-frimap-dummy.m */; };
+		FF3F83C31D41907AE3CFDB5E724E0594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DA3B1FC2D245C6C4F33599293AEA365 /* Pods-frimapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-frimapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		125F572E714B4B8303DA29767472A247 /* Pods-frimapTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-frimapTests.modulemap"; sourceTree = "<group>"; };
+		126157A54D484EDEAC4CDB29B2526631 /* Pods-frimap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frimap-frameworks.sh"; sourceTree = "<group>"; };
+		186A28BDB19707BC0231FADFBB4FFAFD /* Pods-frimap-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frimap-resources.sh"; sourceTree = "<group>"; };
+		21BAC09264EF66702222CCC8725A4EC4 /* Pods-frimap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-frimap-umbrella.h"; sourceTree = "<group>"; };
+		28D0AD4229CBBE55BA1AD704485668F1 /* Pods-frimapUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frimapUITests-resources.sh"; sourceTree = "<group>"; };
+		2995DBBC38D6D6E2BB32D12E15C4892A /* Pods-frimap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-frimap.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABA61D03E9F94FD12B01B09C324E2A8 /* Pods-frimapUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-frimapUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39231AECD1E333F0559F0AFF425280B2 /* Pods-frimapUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-frimapUITests-dummy.m"; sourceTree = "<group>"; };
+		4EA28FECB11C8F9C0991C3B4601776DD /* Pods-frimapTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-frimapTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A26285EE1AE175F118B2A3615DB957D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA2635E2E457D741F96647FAC70AAED /* Pods-frimapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-frimapTests.release.xcconfig"; sourceTree = "<group>"; };
+		679AEF2CDA7EAC4E4E15CF29B560889B /* Pods-frimap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-frimap.release.xcconfig"; sourceTree = "<group>"; };
+		67BC4A78EACA610012B372CAFFA7C376 /* Pods-frimap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-frimap-acknowledgements.plist"; sourceTree = "<group>"; };
+		682C6FA1162A71DEC3DFF3340BAE6E24 /* Pods-frimapTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-frimapTests-umbrella.h"; sourceTree = "<group>"; };
+		7324B36EECA2682BE6E09591DCA5DFCB /* Pods-frimapTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frimapTests-resources.sh"; sourceTree = "<group>"; };
+		745B3D3FBF01974573406D234A9D67B5 /* Pods-frimapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-frimapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BDE6B1E01FBB37758B2AF1DF68AAF2A /* Pods-frimapUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frimapUITests-frameworks.sh"; sourceTree = "<group>"; };
+		87A94E92E0E60DBEFBA0AFC6D4114ED9 /* Pods-frimap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-frimap.modulemap"; sourceTree = "<group>"; };
+		88C5DF2AE69459E00D0434C75FECC8B0 /* Pods_frimapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_frimapTests.framework; path = "Pods-frimapTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89730320C833A360DF1CEAD242A09FBD /* Pods-frimapUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-frimapUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91D6CFA10500CA64CAD415583E34C8A8 /* Pods-frimapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-frimapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB68E9B3B23DC6AC3AB9E4E43FC7CDB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59EF7C840CB5CC4D15BB75A8E626333 /* Pods-frimapTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-frimapTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2B615CFC5CA8E2A2B085C00DF2B5215 /* Pods-frimapUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-frimapUITests-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD85C1980949BE384FA37EC9162F6FA8 /* Pods_frimap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_frimap.framework; path = "Pods-frimap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D406A08A981EB5D1195BDB2FDFAA7047 /* Pods-frimapUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-frimapUITests.modulemap"; sourceTree = "<group>"; };
+		D5B63D0AC5ABAEF65CED82C061D6043A /* Pods-frimapTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-frimapTests-dummy.m"; sourceTree = "<group>"; };
+		D69735A1685C8B9F79789B2FC51905C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9B3057CF54AA3F7673420CB5F379D4 /* Pods-frimap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-frimap-dummy.m"; sourceTree = "<group>"; };
+		E08C1C0845BFC69E699E3A2C4CAE6755 /* Pods_frimapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_frimapUITests.framework; path = "Pods-frimapUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7CC4D96950214ACDB0029370D243AD6 /* Pods-frimap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-frimap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E83C3D9EE4863D91627D20A580FB8DEA /* Pods-frimapTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frimapTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF9919807EEC1A98B89864CA2A95CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA4206EDE0C67EF2259840E711DE374 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D7FD56BAE6F68751B6B4C2C9CEDEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBB3F1D6789081B743EB93F696BB0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5087FDF733830DA7FB2D7DFF5C461F36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3F83C31D41907AE3CFDB5E724E0594 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31EF74392DBCB951CF2A00D9070C7962 /* Pods-frimap */ = {
+			isa = PBXGroup;
+			children = (
+				5A26285EE1AE175F118B2A3615DB957D /* Info.plist */,
+				87A94E92E0E60DBEFBA0AFC6D4114ED9 /* Pods-frimap.modulemap */,
+				E7CC4D96950214ACDB0029370D243AD6 /* Pods-frimap-acknowledgements.markdown */,
+				67BC4A78EACA610012B372CAFFA7C376 /* Pods-frimap-acknowledgements.plist */,
+				DC9B3057CF54AA3F7673420CB5F379D4 /* Pods-frimap-dummy.m */,
+				126157A54D484EDEAC4CDB29B2526631 /* Pods-frimap-frameworks.sh */,
+				186A28BDB19707BC0231FADFBB4FFAFD /* Pods-frimap-resources.sh */,
+				21BAC09264EF66702222CCC8725A4EC4 /* Pods-frimap-umbrella.h */,
+				2995DBBC38D6D6E2BB32D12E15C4892A /* Pods-frimap.debug.xcconfig */,
+				679AEF2CDA7EAC4E4E15CF29B560889B /* Pods-frimap.release.xcconfig */,
+			);
+			name = "Pods-frimap";
+			path = "Target Support Files/Pods-frimap";
+			sourceTree = "<group>";
+		};
+		40F0FC3B5C13B2920B2AF221D3E8723E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD85C1980949BE384FA37EC9162F6FA8 /* Pods_frimap.framework */,
+				88C5DF2AE69459E00D0434C75FECC8B0 /* Pods_frimapTests.framework */,
+				E08C1C0845BFC69E699E3A2C4CAE6755 /* Pods_frimapUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66660A2ED5F39E4CFC26D9D22A1C5D88 /* Pods-frimapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69735A1685C8B9F79789B2FC51905C6 /* Info.plist */,
+				125F572E714B4B8303DA29767472A247 /* Pods-frimapTests.modulemap */,
+				4EA28FECB11C8F9C0991C3B4601776DD /* Pods-frimapTests-acknowledgements.markdown */,
+				B59EF7C840CB5CC4D15BB75A8E626333 /* Pods-frimapTests-acknowledgements.plist */,
+				D5B63D0AC5ABAEF65CED82C061D6043A /* Pods-frimapTests-dummy.m */,
+				E83C3D9EE4863D91627D20A580FB8DEA /* Pods-frimapTests-frameworks.sh */,
+				7324B36EECA2682BE6E09591DCA5DFCB /* Pods-frimapTests-resources.sh */,
+				682C6FA1162A71DEC3DFF3340BAE6E24 /* Pods-frimapTests-umbrella.h */,
+				0DA3B1FC2D245C6C4F33599293AEA365 /* Pods-frimapTests.debug.xcconfig */,
+				5EA2635E2E457D741F96647FAC70AAED /* Pods-frimapTests.release.xcconfig */,
+			);
+			name = "Pods-frimapTests";
+			path = "Target Support Files/Pods-frimapTests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B529D136B2477A6E5CF9344D2FB9331 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31EF74392DBCB951CF2A00D9070C7962 /* Pods-frimap */,
+				66660A2ED5F39E4CFC26D9D22A1C5D88 /* Pods-frimapTests */,
+				C88748A62586F7AA4CE712DD7BD38D15 /* Pods-frimapUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				40F0FC3B5C13B2920B2AF221D3E8723E /* Products */,
+				7B529D136B2477A6E5CF9344D2FB9331 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C88748A62586F7AA4CE712DD7BD38D15 /* Pods-frimapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB68E9B3B23DC6AC3AB9E4E43FC7CDB8 /* Info.plist */,
+				D406A08A981EB5D1195BDB2FDFAA7047 /* Pods-frimapUITests.modulemap */,
+				2ABA61D03E9F94FD12B01B09C324E2A8 /* Pods-frimapUITests-acknowledgements.markdown */,
+				89730320C833A360DF1CEAD242A09FBD /* Pods-frimapUITests-acknowledgements.plist */,
+				39231AECD1E333F0559F0AFF425280B2 /* Pods-frimapUITests-dummy.m */,
+				7BDE6B1E01FBB37758B2AF1DF68AAF2A /* Pods-frimapUITests-frameworks.sh */,
+				28D0AD4229CBBE55BA1AD704485668F1 /* Pods-frimapUITests-resources.sh */,
+				C2B615CFC5CA8E2A2B085C00DF2B5215 /* Pods-frimapUITests-umbrella.h */,
+				745B3D3FBF01974573406D234A9D67B5 /* Pods-frimapUITests.debug.xcconfig */,
+				91D6CFA10500CA64CAD415583E34C8A8 /* Pods-frimapUITests.release.xcconfig */,
+			);
+			name = "Pods-frimapUITests";
+			path = "Target Support Files/Pods-frimapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		203B13677BF71DFB266771A6533A40D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42C4938C13F1F1E41941E629F82F14A /* Pods-frimapTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE0E78002AE0B0DDF1A86D49B2689BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22377F2F814B19372DD42D3CB39F4B19 /* Pods-frimap-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EDD74F676D29DD2941C8D64408B214 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0141F383C20B63592064B2A2E551612B /* Pods-frimapUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		290FCF1EAB5145DC79DFAB8D2ABCCCE7 /* Pods-frimapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F554EA15649C506D40E3B6A7D1682D7E /* Build configuration list for PBXNativeTarget "Pods-frimapTests" */;
+			buildPhases = (
+				9A1DEA96301540B77B23562AFE481357 /* Sources */,
+				17D7FD56BAE6F68751B6B4C2C9CEDEE5 /* Frameworks */,
+				203B13677BF71DFB266771A6533A40D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-frimapTests";
+			productName = "Pods-frimapTests";
+			productReference = 88C5DF2AE69459E00D0434C75FECC8B0 /* Pods_frimapTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36E59256DF44E198E6122721C5995658 /* Pods-frimap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B47306BE5B7912CB4F76B42423A9C /* Build configuration list for PBXNativeTarget "Pods-frimap" */;
+			buildPhases = (
+				7CD5A5DB54C3A2118314FC43A6B9C405 /* Sources */,
+				0AF9919807EEC1A98B89864CA2A95CE0 /* Frameworks */,
+				6EE0E78002AE0B0DDF1A86D49B2689BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-frimap";
+			productName = "Pods-frimap";
+			productReference = CD85C1980949BE384FA37EC9162F6FA8 /* Pods_frimap.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82E82B877B06817E78A3463154F2ADD7 /* Pods-frimapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781E206F58240109BA0BDBB4856DE20D /* Build configuration list for PBXNativeTarget "Pods-frimapUITests" */;
+			buildPhases = (
+				BE7D39B7300BFD303507E270AA1417F3 /* Sources */,
+				5087FDF733830DA7FB2D7DFF5C461F36 /* Frameworks */,
+				80EDD74F676D29DD2941C8D64408B214 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-frimapUITests";
+			productName = "Pods-frimapUITests";
+			productReference = E08C1C0845BFC69E699E3A2C4CAE6755 /* Pods_frimapUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 40F0FC3B5C13B2920B2AF221D3E8723E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36E59256DF44E198E6122721C5995658 /* Pods-frimap */,
+				290FCF1EAB5145DC79DFAB8D2ABCCCE7 /* Pods-frimapTests */,
+				82E82B877B06817E78A3463154F2ADD7 /* Pods-frimapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CD5A5DB54C3A2118314FC43A6B9C405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF248A8DC463A87917B9C1E77F0401CF /* Pods-frimap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1DEA96301540B77B23562AFE481357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC5DD1C5D9A11FC41B9C6A4D8B9994 /* Pods-frimapTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D39B7300BFD303507E270AA1417F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B253E786CFC361AD0B60A776A4178A /* Pods-frimapUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2193F6DE4B7964AB1831AF051E80EA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679AEF2CDA7EAC4E4E15CF29B560889B /* Pods-frimap.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-frimap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-frimap/Pods-frimap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_frimap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		568932246668ABA3706E39F879476C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA3B1FC2D245C6C4F33599293AEA365 /* Pods-frimapTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-frimapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-frimapTests/Pods-frimapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_frimapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66345A83F11B62AA4FB76825986E26ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745B3D3FBF01974573406D234A9D67B5 /* Pods-frimapUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-frimapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-frimapUITests/Pods-frimapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_frimapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3D3E883AE1DEA49C0672F1D80FF4CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D6CFA10500CA64CAD415583E34C8A8 /* Pods-frimapUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-frimapUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-frimapUITests/Pods-frimapUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_frimapUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7985B6F2872959976874F4BB59236D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2995DBBC38D6D6E2BB32D12E15C4892A /* Pods-frimap.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-frimap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-frimap/Pods-frimap.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_frimap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1CB097678E5B1932EF5A05AEC4B8EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA2635E2E457D741F96647FAC70AAED /* Pods-frimapTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-frimapTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-frimapTests/Pods-frimapTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_frimapTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231B47306BE5B7912CB4F76B42423A9C /* Build configuration list for PBXNativeTarget "Pods-frimap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7985B6F2872959976874F4BB59236D3 /* Debug */,
+				2193F6DE4B7964AB1831AF051E80EA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781E206F58240109BA0BDBB4856DE20D /* Build configuration list for PBXNativeTarget "Pods-frimapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66345A83F11B62AA4FB76825986E26ED /* Debug */,
+				A3D3E883AE1DEA49C0672F1D80FF4CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F554EA15649C506D40E3B6A7D1682D7E /* Build configuration list for PBXNativeTarget "Pods-frimapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568932246668ABA3706E39F879476C48 /* Debug */,
+				F1CB097678E5B1932EF5A05AEC4B8EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

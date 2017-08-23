@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7929D461340E2D66D1619B24 /* Pods_frimapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5597DB7F87766EEA40266E2 /* Pods_frimapUITests.framework */; };
+		891498141F4D48C400E81E28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 891498131F4D48C400E81E28 /* GoogleService-Info.plist */; };
 		89319B551F4D3F93007E9BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B541F4D3F93007E9BD3 /* AppDelegate.swift */; };
 		89319B571F4D3F93007E9BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B561F4D3F93007E9BD3 /* ViewController.swift */; };
 		89319B5A1F4D3F93007E9BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89319B581F4D3F93007E9BD3 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		89319B5F1F4D3F93007E9BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89319B5D1F4D3F93007E9BD3 /* LaunchScreen.storyboard */; };
 		89319B6A1F4D3F93007E9BD3 /* frimapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B691F4D3F93007E9BD3 /* frimapTests.swift */; };
 		89319B751F4D3F93007E9BD3 /* frimapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B741F4D3F93007E9BD3 /* frimapUITests.swift */; };
+		BF2B0BD63324C54D821C60A8 /* Pods_frimapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3431BCAF0422A62C74954E /* Pods_frimapTests.framework */; };
+		F3CEE2AD9F69665A3F7D634F /* Pods_frimap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0D5B1456CB15EF6A0088F /* Pods_frimap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3279E333C40E10846ABFEDE2 /* Pods-frimapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-frimapTests/Pods-frimapTests.release.xcconfig"; sourceTree = "<group>"; };
+		42E0D5B1456CB15EF6A0088F /* Pods_frimap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frimap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558092652AFE5EA04D1A7B3B /* Pods-frimapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-frimapUITests/Pods-frimapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E58BA3A91A23CFB3C88F344 /* Pods-frimapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frimapUITests/Pods-frimapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		891498131F4D48C400E81E28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89319B511F4D3F93007E9BD3 /* frimap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frimap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89319B541F4D3F93007E9BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89319B561F4D3F93007E9BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		89319B701F4D3F93007E9BD3 /* frimapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frimapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89319B741F4D3F93007E9BD3 /* frimapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frimapUITests.swift; sourceTree = "<group>"; };
 		89319B761F4D3F93007E9BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B7C7ED0E9DE79FD32150374 /* Pods-frimap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimap.release.xcconfig"; path = "Pods/Target Support Files/Pods-frimap/Pods-frimap.release.xcconfig"; sourceTree = "<group>"; };
+		A369ECA9DE11436BE93A62DC /* Pods-frimap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frimap/Pods-frimap.debug.xcconfig"; sourceTree = "<group>"; };
+		C5597DB7F87766EEA40266E2 /* Pods_frimapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frimapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E316C27D3B9C94569C7330EE /* Pods-frimapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frimapTests/Pods-frimapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3431BCAF0422A62C74954E /* Pods_frimapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frimapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CEE2AD9F69665A3F7D634F /* Pods_frimap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2B0BD63324C54D821C60A8 /* Pods_frimapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7929D461340E2D66D1619B24 /* Pods_frimapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211C5EF1E2C7791414B33513 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A369ECA9DE11436BE93A62DC /* Pods-frimap.debug.xcconfig */,
+				8B7C7ED0E9DE79FD32150374 /* Pods-frimap.release.xcconfig */,
+				E316C27D3B9C94569C7330EE /* Pods-frimapTests.debug.xcconfig */,
+				3279E333C40E10846ABFEDE2 /* Pods-frimapTests.release.xcconfig */,
+				6E58BA3A91A23CFB3C88F344 /* Pods-frimapUITests.debug.xcconfig */,
+				558092652AFE5EA04D1A7B3B /* Pods-frimapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		89319B481F4D3F93007E9BD3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				89319B681F4D3F93007E9BD3 /* frimapTests */,
 				89319B731F4D3F93007E9BD3 /* frimapUITests */,
 				89319B521F4D3F93007E9BD3 /* Products */,
+				211C5EF1E2C7791414B33513 /* Pods */,
+				B36CE0B3D1F2C2E4E2538410 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +134,7 @@
 				89319B581F4D3F93007E9BD3 /* Main.storyboard */,
 				89319B5B1F4D3F93007E9BD3 /* Assets.xcassets */,
 				89319B5D1F4D3F93007E9BD3 /* LaunchScreen.storyboard */,
+				891498131F4D48C400E81E28 /* GoogleService-Info.plist */,
 				89319B601F4D3F93007E9BD3 /* Info.plist */,
 			);
 			path = frimap;
@@ -125,6 +158,16 @@
 			path = frimapUITests;
 			sourceTree = "<group>";
 		};
+		B36CE0B3D1F2C2E4E2538410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E0D5B1456CB15EF6A0088F /* Pods_frimap.framework */,
+				FC3431BCAF0422A62C74954E /* Pods_frimapTests.framework */,
+				C5597DB7F87766EEA40266E2 /* Pods_frimapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89319B791F4D3F93007E9BD3 /* Build configuration list for PBXNativeTarget "frimap" */;
 			buildPhases = (
+				359FDBA94C58622F48D63ECC /* [CP] Check Pods Manifest.lock */,
 				89319B4D1F4D3F93007E9BD3 /* Sources */,
 				89319B4E1F4D3F93007E9BD3 /* Frameworks */,
 				89319B4F1F4D3F93007E9BD3 /* Resources */,
+				732B82F1C0C8DD641C10A729 /* [CP] Embed Pods Frameworks */,
+				6B81E08ECB7B6854153554C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89319B7C1F4D3F93007E9BD3 /* Build configuration list for PBXNativeTarget "frimapTests" */;
 			buildPhases = (
+				DE77DE6C9CD33AB833E83999 /* [CP] Check Pods Manifest.lock */,
 				89319B611F4D3F93007E9BD3 /* Sources */,
 				89319B621F4D3F93007E9BD3 /* Frameworks */,
 				89319B631F4D3F93007E9BD3 /* Resources */,
+				262FC4987512398EC9EFD467 /* [CP] Embed Pods Frameworks */,
+				FDEAF48970022FF825E235E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89319B7F1F4D3F93007E9BD3 /* Build configuration list for PBXNativeTarget "frimapUITests" */;
 			buildPhases = (
+				A144DDD896587B7318562FFC /* [CP] Check Pods Manifest.lock */,
 				89319B6C1F4D3F93007E9BD3 /* Sources */,
 				89319B6D1F4D3F93007E9BD3 /* Frameworks */,
 				89319B6E1F4D3F93007E9BD3 /* Resources */,
+				6621EE83A61D1BDF3024CEA1 /* [CP] Embed Pods Frameworks */,
+				43444D9762E260AFFCB30CB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89319B5F1F4D3F93007E9BD3 /* LaunchScreen.storyboard in Resources */,
+				891498141F4D48C400E81E28 /* GoogleService-Info.plist in Resources */,
 				89319B5C1F4D3F93007E9BD3 /* Assets.xcassets in Resources */,
 				89319B5A1F4D3F93007E9BD3 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262FC4987512398EC9EFD467 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frimapTests/Pods-frimapTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		359FDBA94C58622F48D63ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43444D9762E260AFFCB30CB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frimapUITests/Pods-frimapUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6621EE83A61D1BDF3024CEA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frimapUITests/Pods-frimapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B81E08ECB7B6854153554C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frimap/Pods-frimap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732B82F1C0C8DD641C10A729 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frimap/Pods-frimap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A144DDD896587B7318562FFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE77DE6C9CD33AB833E83999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEAF48970022FF825E235E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-frimapTests/Pods-frimapTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89319B4D1F4D3F93007E9BD3 /* Sources */ = {
@@ -410,6 +601,7 @@
 		};
 		89319B7A1F4D3F93007E9BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A369ECA9DE11436BE93A62DC /* Pods-frimap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = frimap/Info.plist;
@@ -422,6 +614,7 @@
 		};
 		89319B7B1F4D3F93007E9BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7C7ED0E9DE79FD32150374 /* Pods-frimap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = frimap/Info.plist;
@@ -434,6 +627,7 @@
 		};
 		89319B7D1F4D3F93007E9BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E316C27D3B9C94569C7330EE /* Pods-frimapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +642,7 @@
 		};
 		89319B7E1F4D3F93007E9BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3279E333C40E10846ABFEDE2 /* Pods-frimapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +657,7 @@
 		};
 		89319B801F4D3F93007E9BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E58BA3A91A23CFB3C88F344 /* Pods-frimapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = frimapUITests/Info.plist;
@@ -475,6 +671,7 @@
 		};
 		89319B811F4D3F93007E9BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558092652AFE5EA04D1A7B3B /* Pods-frimapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = frimapUITests/Info.plist;
@@ -505,6 +702,7 @@
 				89319B7B1F4D3F93007E9BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89319B7C1F4D3F93007E9BD3 /* Build configuration list for PBXNativeTarget "frimapTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +711,7 @@
 				89319B7E1F4D3F93007E9BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89319B7F1F4D3F93007E9BD3 /* Build configuration list for PBXNativeTarget "frimapUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +720,7 @@
 				89319B811F4D3F93007E9BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
