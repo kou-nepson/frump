@@ -6,7 +6,7 @@ target 'frimap' do
   use_frameworks!
 
   # Pods for frimap
-  od 'Firebase/Core'
+  pod 'Firebase/Core'
   pod 'Firebase/Database'
 
   target 'frimapTests' do

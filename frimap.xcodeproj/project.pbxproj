@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7929D461340E2D66D1619B24 /* Pods_frimapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5597DB7F87766EEA40266E2 /* Pods_frimapUITests.framework */; };
-		891498141F4D48C400E81E28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 891498131F4D48C400E81E28 /* GoogleService-Info.plist */; };
 		89319B551F4D3F93007E9BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B541F4D3F93007E9BD3 /* AppDelegate.swift */; };
 		89319B571F4D3F93007E9BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B561F4D3F93007E9BD3 /* ViewController.swift */; };
 		89319B5A1F4D3F93007E9BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89319B581F4D3F93007E9BD3 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		89319B5F1F4D3F93007E9BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89319B5D1F4D3F93007E9BD3 /* LaunchScreen.storyboard */; };
 		89319B6A1F4D3F93007E9BD3 /* frimapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B691F4D3F93007E9BD3 /* frimapTests.swift */; };
 		89319B751F4D3F93007E9BD3 /* frimapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89319B741F4D3F93007E9BD3 /* frimapUITests.swift */; };
+		8966DC1E1F5A75C70039B2EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8966DC1D1F5A75C70039B2EA /* GoogleService-Info.plist */; };
 		BF2B0BD63324C54D821C60A8 /* Pods_frimapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3431BCAF0422A62C74954E /* Pods_frimapTests.framework */; };
 		F3CEE2AD9F69665A3F7D634F /* Pods_frimap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0D5B1456CB15EF6A0088F /* Pods_frimap.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,6 @@
 		42E0D5B1456CB15EF6A0088F /* Pods_frimap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frimap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		558092652AFE5EA04D1A7B3B /* Pods-frimapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-frimapUITests/Pods-frimapUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6E58BA3A91A23CFB3C88F344 /* Pods-frimapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frimapUITests/Pods-frimapUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		891498131F4D48C400E81E28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89319B511F4D3F93007E9BD3 /* frimap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frimap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89319B541F4D3F93007E9BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89319B561F4D3F93007E9BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		89319B701F4D3F93007E9BD3 /* frimapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frimapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89319B741F4D3F93007E9BD3 /* frimapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frimapUITests.swift; sourceTree = "<group>"; };
 		89319B761F4D3F93007E9BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8966DC1D1F5A75C70039B2EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8B7C7ED0E9DE79FD32150374 /* Pods-frimap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimap.release.xcconfig"; path = "Pods/Target Support Files/Pods-frimap/Pods-frimap.release.xcconfig"; sourceTree = "<group>"; };
 		A369ECA9DE11436BE93A62DC /* Pods-frimap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frimap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frimap/Pods-frimap.debug.xcconfig"; sourceTree = "<group>"; };
 		C5597DB7F87766EEA40266E2 /* Pods_frimapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frimapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +134,7 @@
 				89319B581F4D3F93007E9BD3 /* Main.storyboard */,
 				89319B5B1F4D3F93007E9BD3 /* Assets.xcassets */,
 				89319B5D1F4D3F93007E9BD3 /* LaunchScreen.storyboard */,
-				891498131F4D48C400E81E28 /* GoogleService-Info.plist */,
+				8966DC1D1F5A75C70039B2EA /* GoogleService-Info.plist */,
 				89319B601F4D3F93007E9BD3 /* Info.plist */,
 			);
 			path = frimap;
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89319B5F1F4D3F93007E9BD3 /* LaunchScreen.storyboard in Resources */,
-				891498141F4D48C400E81E28 /* GoogleService-Info.plist in Resources */,
+				8966DC1E1F5A75C70039B2EA /* GoogleService-Info.plist in Resources */,
 				89319B5C1F4D3F93007E9BD3 /* Assets.xcassets in Resources */,
 				89319B5A1F4D3F93007E9BD3 /* Main.storyboard in Resources */,
 			);

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36E59256DF44E198E6122721C5995658"
+               BlueprintIdentifier = "0458EE498AE9DF32E7AFD5E792241DB4"
                BuildableName = "Pods_frimap.framework"
                BlueprintName = "Pods-frimap"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36E59256DF44E198E6122721C5995658"
+            BlueprintIdentifier = "0458EE498AE9DF32E7AFD5E792241DB4"
             BuildableName = "Pods_frimap.framework"
             BlueprintName = "Pods-frimap"
             ReferencedContainer = "container:Pods.xcodeproj">
